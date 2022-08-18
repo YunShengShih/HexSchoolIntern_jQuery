@@ -5,13 +5,6 @@ $(document).ready(function() {
       $('.dropdown-open').slideToggle();
     });
 
-    //to top
-    $('.to_top').click(function(event) {
-      event.preventDefault();
-      $('html,body').animate({
-        scrollTop: 0}, 1000);
-     });
-
     //swiper
     const swiper = new Swiper('.swiper', {
         // Optional parameters
